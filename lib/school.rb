@@ -21,10 +21,19 @@ class School
     @roster[number]
   end
 
+  # def sort
+  #   sorted = {}
+  #   @roster.each do |grade, name|
+  #     sorted[grade] = name.sort
+  #   end
+  #   sorted
+  #   binding.pry
+  # end
+
   def sort
     sorted = {}
-    @roster.each do |grade, name|
-      sorted[grade] = name.sort
+    roster.each do |grade, students|
+      sorted[grade] = students.sort
     end
     sorted
     binding.pry
