@@ -38,3 +38,4 @@ class School
     sorted
     binding.pry
   end
+end
