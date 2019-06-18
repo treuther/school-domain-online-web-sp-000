@@ -1,4 +1,5 @@
 # code here!
+require "pry"
 class School
   attr_reader :roster
 
@@ -26,8 +27,6 @@ class School
       sorted[grade] = name.sort
     end
     sorted
+    binding.pry
   end
 
-# def sort
-#   @roster.sort_by |k, v| {[k, v]}
-# end
